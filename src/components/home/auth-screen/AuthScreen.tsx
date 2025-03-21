@@ -1,9 +1,12 @@
 import React from 'react'
+import HeroSection from './HeroSection';
 
 const AuthScreen = () => {
   return (
-    <div>AuthScreen</div>
+    <div className="flex flex-col">
+      <HeroSection />
+    </div>
   )
 }
 
-export default AuthScreen
+export default AuthScreen;
