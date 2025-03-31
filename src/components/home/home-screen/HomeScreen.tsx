@@ -1,8 +1,10 @@
-import React from 'react'
+import BaseLayout from "@/components/BaseLayout";
 
 const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
+    <BaseLayout>
+      Home Screen cotents
+    </BaseLayout>
   )
 }
 
