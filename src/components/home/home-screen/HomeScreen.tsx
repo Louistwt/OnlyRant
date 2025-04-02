@@ -1,12 +1,12 @@
 import BaseLayout from "@/components/BaseLayout";
 import CoverImage from "./CoverImage";
+import UserProfile from "./UserProfile";
 
 const HomeScreen = () => {
   return (
-    <div className="flex flex-col">
-      <CoverImage />
-
-    </div>
+    <BaseLayout>
+      <UserProfile />
+    </BaseLayout>
   )
 }
 
